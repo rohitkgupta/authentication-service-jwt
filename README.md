@@ -1,4 +1,4 @@
-#authentication-service Project written in Java, SpringBoot and gradle for build.
+#authentication-service Project written in Java, SpringBoot, JWT and gradle for build.
 
 Steps to build & run:
 
@@ -33,4 +33,4 @@ Body={
 }
 
 
-Note: If user refresh token, I am storing old token in a data structure(TreeSet) to invalidate request with older token. We can optimize this storage by storing these token till they have validity only.
+Note: If user refresh token, I am storing old token in a data structure(TreeSet) to invalidate request with older token. We can optimize this storage by storing these token till they have validity.
